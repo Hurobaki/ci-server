@@ -13,3 +13,9 @@ gem 'rubocop', '~> 1.5', require: false
 gem 'thin', '~> 1.8'
 
 gem 'json', '~> 2.3'
+
+gem 'octokit', '~> 4.19'
+
+group :development do
+  gem 'prettier'
+end
